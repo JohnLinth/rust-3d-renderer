@@ -16,13 +16,14 @@ just saw a 3d renderer and wanted to make one myself to learn more about rust an
 - `ESC`: quit
 
 ## setup
-1. make sure you have rust installed ([rustup.rs](https://rustup.rs))
+1. make sure you have rust installed ([rust-lang](https://www.rust-lang.org/tools/install))
 2. clone this repo
-3. run it:
+3. to run it:
 ```bash
-cd renderer
+cd rust-3d-renderer
 cargo run --release
 ```
+4. a window should pop up and you can use the controls to switch between shapes
 
 ## notes
 - uses minifb for window management
